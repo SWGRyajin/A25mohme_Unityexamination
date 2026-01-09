@@ -62,7 +62,9 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 49a40d7a026b3c34f8c0fb82c6ac0d52
+    name: MenuAudioParameter
   m_AudioMixerGroupViews:
   - guids:
     - 79d3af72ced7827488428e583e4cf07d
@@ -167,7 +169,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -3627728843051671499}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 1
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
