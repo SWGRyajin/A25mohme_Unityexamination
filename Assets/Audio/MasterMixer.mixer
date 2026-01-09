@@ -79,6 +79,8 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 49a40d7a026b3c34f8c0fb82c6ac0d52
     name: MenuAudioParameter
+  - guid: bd0a2e209246785408e8057d76538e19
+    name: StoryParameter
   m_AudioMixerGroupViews:
   - guids:
     - 79d3af72ced7827488428e583e4cf07d
