@@ -77,6 +77,8 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
+  - guid: 6821350a0ff67684c8d4dfdc5e112bca
+    name: GameParameter
   - guid: 49a40d7a026b3c34f8c0fb82c6ac0d52
     name: MenuAudioParameter
   - guid: bd0a2e209246785408e8057d76538e19
@@ -145,7 +147,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ambience
+  m_Name: Game
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 3ce2617d267cf494995c60f4189707ca
   m_Children: []
@@ -154,7 +156,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 7107099254987528983}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 8
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -173,7 +175,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -9109615767126683463}
-  m_UserColorIndex: 0
+  m_UserColorIndex: 6
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
